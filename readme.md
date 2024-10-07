@@ -7,8 +7,6 @@
 | [Tailscale](https://github.com/tailscale/tailscale) | :white_check_mark:[:exclamation:<sup>0<sup>](#tsexplain1) | :x::free: | :white_check_mark: | :white_check_mark: | Unlimited :one::zero::zero: | :white_check_mark: :three: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :globe_with_meridians: | :globe_with_meridians::lock_with_ink_pen: | :globe_with_meridians::lock_with_ink_pen: | :globe_with_meridians: | :globe_with_meridians::lock_with_ink_pen: | :white_check_mark: | :white_check_mark: [:exclamation:<sup>3<sup>](#tsexplain2) |
 | [Headscale](https://github.com/juanfont/headscale) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Unlimited | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :globe_with_meridians: | :globe_with_meridians: | :globe_with_meridians: | :globe_with_meridians:[:exclamation:<sup>2<sup>](#hsexplain1) | :globe_with_meridians::lock_with_ink_pen:[:exclamation:<sup>2<sup>](#hsexplain1) | :white_check_mark: | :white_check_mark: |
 | [Netmaker](https://github.com/gravitl/netmaker) | :white_check_mark:[:exclamation:<sup>1<sup>](#nmexplain1) | :white_check_mark: | :white_check_mark: | :white_check_mark: | Unlimited | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :globe_with_meridians: | :globe_with_meridians: | :globe_with_meridians: | :eight_pointed_black_star::snowflake: | :eight_pointed_black_star::snowflake: | :white_check_mark: | :white_check_mark: |
-| [WGSD](https://github.com/jwhited/wgsd) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | Unlimited | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: |
-| [Wesher](https://github.com/costela/wesher) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Unlimited | :x: |  |  |  | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: |
 | [NetBird](https://github.com/netbirdio/netbird) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | Unlimited :one::zero::zero: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :globe_with_meridians: | :globe_with_meridians: | :white_check_mark: | :white_check_mark: |
 
   
@@ -19,10 +17,6 @@
  <sup>2</sup><a name="hsexplain1">Headscale uses the tailscale mobile clients. <a href="https://github.com/juanfont/headscale/blob/main/docs/android-client.md">Andriod nstructions</a></a>. <a href="https://github.com/juanfont/headscale/blob/main/docs/iOS-client.md">iOS</a></a>
   
  <sup>3</sup><a name="tsexplain2">When routing all traffic through an exit node tailscale ignores custom DNS. <a href="https://github.com/tailscale/tailscale/issues/8237">Issue</a></a>
-
- <sup>4</sup><a name="nvmexplain1">Open source parts: `libtelio` - multiplatform meshnet library, `nordvpn-linux` - vpn client app for linux with integrated meshnet feature, `libdrop` - multiplatform file-sharing-over-meshnet library.</a>
-
- <sup>5</sup><a name="nvmexplain2">10 peers per account. Can connect to up to 50 devices from other accounts.</a>
  
 ## Legend
 - :free: Has free tier
@@ -35,12 +29,6 @@
 - :soon: Developer claims the feature is coming soon
 - [:exclamation:<sup>0<sup>](https://github.com/HarvsG/WireGuardMeshes/blob/main/readme.md#legend) Significant exception to the feature (should link to explanation)
 
-## Disclaimers
-- [WireGuard](https://wireguard.com/) is a registered trademark of Jason A. Donenfeld.
-- I do not independently verify each of the features and generally rely on the honesty of contributors please open an issue if you find any mistakes.
-
-## Changes
-Please help update this table by using [issues](https://github.com/HarvsG/WireGuardMeshes/issues) or [pull requests](https://github.com/HarvsG/WireGuardMeshes/pulls). You may find https://www.tablesgenerator.com/markdown_tables helpful (File -> paste table data)
 
 ## Columns
 | Column | Description |
